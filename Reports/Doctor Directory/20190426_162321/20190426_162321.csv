@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Doctor Directory,Firefox 65.0,,,2019-04-26 16:23:24,2019-04-26 16:23:40,16.215s,PASSED
+,,,,,,,
+Test Cases/Login to admin,Firefox 65.0,,,2019-04-26 16:23:24,2019-04-26 16:23:36,11.958s,PASSED
+"openBrowser("""")",Firefox 65.0,,,2019-04-26 16:23:25,2019-04-26 16:23:32,7.414s,PASSED
+navigateToUrl(url_admin),Firefox 65.0,,,2019-04-26 16:23:32,2019-04-26 16:23:35,2.829s,PASSED
+waitForPageLoad(15),Firefox 65.0,,,2019-04-26 16:23:35,2019-04-26 16:23:35,0.091s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Username_username""), user_admin)",Firefox 65.0,,,2019-04-26 16:23:35,2019-04-26 16:23:35,0.160s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Password_password""), pw_admin)",Firefox 65.0,,,2019-04-26 16:23:35,2019-04-26 16:23:35,0.131s,PASSED
+"click(findTestObject(""Page_Log in  Django site admin/input""))",Firefox 65.0,,,2019-04-26 16:23:35,2019-04-26 16:23:36,0.843s,PASSED
+,,,,,,,
+Test Cases/Add test Doctor,Firefox 65.0,,,2019-04-26 16:23:36,2019-04-26 16:23:39,2.315s,PASSED
+navigateToUrl(url_dr_import),Firefox 65.0,,,2019-04-26 16:23:37,2019-04-26 16:23:37,0.210s,PASSED
+"uploadFile(findTestObject(""Page_Import From CSV/input_File_file upload""), ""/Users/mirabel/git/roph-testing/media/roph_test_dr_import_1.csv"")",Firefox 65.0,,,2019-04-26 16:23:37,2019-04-26 16:23:37,0.113s,PASSED
+"click(findTestObject(""Page_Import From CSV/input submit import file""))",Firefox 65.0,,,2019-04-26 16:23:37,2019-04-26 16:23:39,1.751s,PASSED
+waitForPageLoad(30),Firefox 65.0,,,2019-04-26 16:23:39,2019-04-26 16:23:39,0.024s,PASSED

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Doctor Directory,Firefox 65.0,,,2019-04-26 15:55:10,2019-04-26 15:55:20,9.799s,INCOMPLETE
+,,,,,,,
+Test Cases/Login to admin,Firefox 65.0,,,2019-04-26 15:55:10,2019-04-26 15:55:20,9.382s,PASSED
+"openBrowser("""")",Firefox 65.0,,,2019-04-26 15:55:11,2019-04-26 15:55:16,5.662s,PASSED
+navigateToUrl(url_admin),Firefox 65.0,,,2019-04-26 15:55:16,2019-04-26 15:55:18,2.068s,PASSED
+waitForPageLoad(15),Firefox 65.0,,,2019-04-26 15:55:18,2019-04-26 15:55:19,0.111s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Username_username""), user_admin)",Firefox 65.0,,,2019-04-26 15:55:19,2019-04-26 15:55:19,0.151s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Password_password""), pw_admin)",Firefox 65.0,,,2019-04-26 15:55:19,2019-04-26 15:55:19,0.110s,PASSED
+"click(findTestObject(""Page_Log in  Django site admin/input""))",Firefox 65.0,,,2019-04-26 15:55:19,2019-04-26 15:55:20,0.757s,PASSED
+,,,,,,,
+Test Cases/Add test Doctor,Firefox 65.0,,,2019-04-26 15:55:20,2019-04-26 15:55:20,0.009s,PASSED

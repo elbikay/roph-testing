@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Doctor Directory,Firefox 65.0,,,2019-04-26 15:42:16,2019-04-26 15:42:35,18.428s,FAILED
+,,,,,,,
+Test Cases/Login to admin,Firefox 65.0,,,2019-04-26 15:42:17,2019-04-26 15:42:30,13.356s,PASSED
+"openBrowser("""")",Firefox 65.0,,,2019-04-26 15:42:17,2019-04-26 15:42:26,8.490s,PASSED
+navigateToUrl(url_admin),Firefox 65.0,,,2019-04-26 15:42:26,2019-04-26 15:42:28,2.679s,PASSED
+waitForPageLoad(15),Firefox 65.0,,,2019-04-26 15:42:28,2019-04-26 15:42:29,0.135s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Username_username""), user_admin)",Firefox 65.0,,,2019-04-26 15:42:29,2019-04-26 15:42:29,0.383s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Password_password""), pw_admin)",Firefox 65.0,,,2019-04-26 15:42:29,2019-04-26 15:42:29,0.155s,PASSED
+"click(findTestObject(""Page_Log in  Django site admin/input""))",Firefox 65.0,,,2019-04-26 15:42:29,2019-04-26 15:42:30,0.994s,PASSED
+,,,,,,,
+Test Cases/Add test Doctor,Firefox 65.0,,,2019-04-26 15:42:30,2019-04-26 15:42:33,3.266s,FAILED
+navigateToUrl(url_dr_import),Firefox 65.0,,,2019-04-26 15:42:30,2019-04-26 15:42:31,1.119s,PASSED
+"uploadFile(findTestObject(""Page_Import From CSV/input_File_file upload""), ""media/roph_test_dr_import.csv"")",Firefox 65.0,,,2019-04-26 15:42:31,2019-04-26 15:42:33,1.901s,FAILED

@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.acceptAlert()
+WebUI.navigateToUrl(GlobalVariable.url_dr_import)
 
-WebUI.acceptAlert()
+WebUI.uploadFile(findTestObject('Page_Import From CSV/input_File_file upload'), '/Users/mirabel/git/roph-testing/media/roph_test_dr_import.csv')
+
+WebUI.click(findTestObject('Page_Import From CSV/input submit import file'))
+
+WebUI.waitForPageLoad(30)
 

@@ -14,11 +14,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl(GlobalVariable.url_admin)
 
-WebUI.setText(findTestObject('Page_Log in  Django site admin/input_Username_username'), GlobalVariable.url_cert)
+WebUI.waitForPageLoad(15)
 
-WebUI.setText(findTestObject('Page_Log in  Django site admin/input_Password_password'), GlobalVariable.password_admin)
+WebUI.setText(findTestObject('Page_Log in  Django site admin/input_Username_username'), GlobalVariable.user_admin)
+
+WebUI.setText(findTestObject('Page_Log in  Django site admin/input_Password_password'), GlobalVariable.pw_admin)
 
 WebUI.click(findTestObject('Page_Log in  Django site admin/input'))
 

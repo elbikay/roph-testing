@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Doctor Directory" time="11" tests="2" failures="0" errors="0">
+   <testsuite name="Doctor Directory" tests="2" failures="0" errors="0" time="11" timestamp="2019-04-26 16:07:43" hostname="mirabel - mirabel.lan" id="Test Suites/Doctor Directory">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mirabel/git/roph-testing/Reports/Doctor Directory/20190426_160739"/>
+         <property name="logFiles" value="/Users/mirabel/git/roph-testing/Reports/Doctor Directory/20190426_160739/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mirabel - mirabel.lan"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.86.166"/>
+         <property name="sessionId" value="30af96bd-e795-6242-8a69-525b72acabe5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login to admin" classname="Test Cases/Login to admin" status="PASSED">
+         <system-out><![CDATA[2019-04-26 16:07:43 - [TEST_CASE][PASSED] - Test Cases/Login to admin: Test Cases/Login to admin
+
+2019-04-26 16:07:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-26 16:07:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-26 16:07:44 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-26 16:07:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 16:07:50 - [TEST_STEP][PASSED] - navigateToUrl(url_admin): Navigate to 'https://roph.dev.imagescape.com/admin' successfully
+
+2019-04-26 16:07:53 - [MESSAGE][PASSED] - Navigate to 'https://roph.dev.imagescape.com/admin' successfully
+
+2019-04-26 16:07:53 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2019-04-26 16:07:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-26 16:07:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Log in  Django site admin/input_Username_username"), user_admin): Text 'katalon_admin' is set on object 'Object Repository/Page_Log in  Django site admin/input_Username_username'
+
+2019-04-26 16:07:53 - [MESSAGE][PASSED] - Text 'katalon_admin' is set on object 'Object Repository/Page_Log in  Django site admin/input_Username_username'
+
+2019-04-26 16:07:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Log in  Django site admin/input_Password_password"), pw_admin): Text 'menfolk-judge-censure-dollop' is set on object 'Object Repository/Page_Log in  Django site admin/input_Password_password'
+
+2019-04-26 16:07:53 - [MESSAGE][PASSED] - Text 'menfolk-judge-censure-dollop' is set on object 'Object Repository/Page_Log in  Django site admin/input_Password_password'
+
+2019-04-26 16:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Log in  Django site admin/input")): Object: 'Object Repository/Page_Log in  Django site admin/input' is clicked on
+
+2019-04-26 16:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in  Django site admin/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add test Doctor" classname="Test Cases/Add test Doctor" status="PASSED">
+         <system-out><![CDATA[2019-04-26 16:07:54 - [TEST_CASE][PASSED] - Test Cases/Add test Doctor: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 16:07:43 - [TEST_SUITE][INCOMPLETE] - Doctor Directory: null]]></system-out>
+      <system-err><![CDATA[2019-04-26 16:07:43 - [TEST_SUITE][INCOMPLETE] - Doctor Directory: null]]></system-err>
+   </testsuite>
+</testsuites>

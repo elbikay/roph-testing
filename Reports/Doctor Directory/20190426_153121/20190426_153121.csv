@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Doctor Directory,Firefox 65.0,,,2019-04-26 15:31:24,2019-04-26 15:32:10,45.457s,FAILED
+,,,,,,,
+Test Cases/Login to admin,Firefox 65.0,,,2019-04-26 15:31:25,2019-04-26 15:31:35,10.479s,PASSED
+"openBrowser("""")",Firefox 65.0,,,2019-04-26 15:31:25,2019-04-26 15:31:31,6.406s,PASSED
+navigateToUrl(url_admin),Firefox 65.0,,,2019-04-26 15:31:31,2019-04-26 15:31:34,2.394s,PASSED
+waitForPageLoad(15),Firefox 65.0,,,2019-04-26 15:31:34,2019-04-26 15:31:34,0.074s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Username_username""), user_admin)",Firefox 65.0,,,2019-04-26 15:31:34,2019-04-26 15:31:34,0.146s,PASSED
+"setText(findTestObject(""Page_Log in  Django site admin/input_Password_password""), pw_admin)",Firefox 65.0,,,2019-04-26 15:31:34,2019-04-26 15:31:34,0.132s,PASSED
+"click(findTestObject(""Page_Log in  Django site admin/input""))",Firefox 65.0,,,2019-04-26 15:31:34,2019-04-26 15:31:35,0.854s,PASSED
+,,,,,,,
+Test Cases/Add test Doctor,Firefox 65.0,,,2019-04-26 15:31:35,2019-04-26 15:32:09,33.658s,FAILED
+"click(findTestObject(""Page_Site administration  Django site admin/a_Doctors""))",Firefox 65.0,,,2019-04-26 15:31:35,2019-04-26 15:31:38,2.743s,PASSED
+"click(findTestObject(""Page_Select doctor to change  Django site admin/a_Upload CSV - dr import""))",Firefox 65.0,,,2019-04-26 15:31:38,2019-04-26 15:32:09,30.703s,FAILED
