@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>link to doctors search</description>
+      <initValue>'https://roph.dev.imagescape.com/doctors/'</initValue>
+      <name>url_dr</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>link to jobs search</description>
+      <initValue>'https://roph.dev.imagescape.com/jobs/'</initValue>
+      <name>url_jobs</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>link to nurse certification page</description>
+      <initValue>'https://roph.dev.imagescape.com/certification/'</initValue>
+      <name>url_cert</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>link to admin</description>
+      <initValue>'https://roph.dev.imagescape.com/admin'</initValue>
+      <name>url_admin</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
