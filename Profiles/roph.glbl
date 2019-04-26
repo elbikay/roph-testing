@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>roph</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>link to doctors search</description>
+      <initValue>'https://roph.dev.imagescape.com/doctors/'</initValue>
+      <name>url_dr</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>link to featured doctors</description>
+      <initValue>'https://myphysician.roph.dev.imagescape.com/'</initValue>
+      <name>url_myphysician</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>link to jobs search</description>
+      <initValue>'https://roph.dev.imagescape.com/jobs/'</initValue>
+      <name>url_jobs</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>link to nurse certification page</description>
+      <initValue>'https://roph.dev.imagescape.com/certification/'</initValue>
+      <name>url_cert</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>link to roph admin on dev</description>
+      <initValue>'https://roph.dev.imagescape.com/admin'</initValue>
+      <name>url_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>roph test user with admin permissions - hr</description>
+      <initValue>'katalon_admin'</initValue>
+      <name>user_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>roph test user with staff permissions - roph_apply</description>
+      <initValue>'katalon_staff'</initValue>
+      <name>user_staff</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>iscape login user</description>
+      <initValue>'lbk'</initValue>
+      <name>user_su</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'(*msrjrjjR'</initValue>
+      <name>pw_su</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>roph admin user pw</description>
+      <initValue>'menfolk-judge-censure-dollop'</initValue>
+      <name>pw_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>roph staff user pw</description>
+      <initValue>'verso-absentee-oriental-penni'</initValue>
+      <name>pw_staff</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>roph admin group</description>
+      <initValue>'hr'</initValue>
+      <name>group_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>roph staff group</description>
+      <initValue>'roph_application'</initValue>
+      <name>group_staff</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
